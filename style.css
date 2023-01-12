@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+body {
+  height: 2000px;
+  background: url(https://static2.cbrimages.com/wordpress/wp-content/uploads/2021/07/higurashi-sotsu-episode-3-feature.jpg) no-repeat center;
+  height: 100vh;
+  background-size: cover;
+}
+
+#some_block {
+  background: red;
+  color: #fff;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  position: fixed;
+  left: 20px;
+  top: 50px;
+}
+
+
+#header, #footer {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  border-bottom: 4px solid;
+  background: rgb(0, 0, 0);
+  color: #fff;
+  line-height: 70px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 50px;
+  float: left;
+}
+
+#header {
+  text-align: right;
+  
+}
+
+#text {
+  color: white;
+  list-style: none;
+  display: block;
+  float: left;
+  width: auto;
+  margin-bottom: 25%;
+  text-align: none;
+  margin-left: 2%;
+  font-family: 'Secular One', sans-serif;;
+}
+
+#text1 {
+  color: white;
+  list-style: none;
+  display: block;
+  float: left;
+  width: auto;
+  margin-top: -25%;
+  text-align: none;
+  margin-left: 2%;
+  font-family: 'Secular One', sans-serif;;
+}
+
+#text2 {
+  color: white;
+  list-style: none;
+  display: block;
+  float: left;
+  width: auto;
+  margin-top: -21%;
+  text-align: none;
+  margin-left: 2%;
+  font-family: 'Secular One', sans-serif;;
+}
+
+#text3 {
+  color: white;
+  list-style: none;
+  display: block;
+  float: left;
+  width: auto;
+  margin-top: -16%;
+  text-align: none;
+  margin-left: 2%;
+  font-family: 'Secular One', sans-serif;;
+}
+
+#img {
+  float: right;
+  margin-top: -10%;
+  width: auto;
+  margin-left: 40%;
+}
+
+#img1 {
+  float: right;
+  margin-top: 0%;
+  width: auto;
+  margin-left: 40%;
+
+}
+
+#nav {
+  list-style: none;
+  display: block;
+  float: left;
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#nav li {
+  display: inline;
+  background: #fafafa;
+  border: 1px solid;
+  padding: 0 20px;
+  cursor: pointer;
+  
+}
+
+#nav li:hover {
+  color: #fafafa;
+  background: #333;
+  border-radius: 5px;
+  border-color: black;
+}
+
+#nav li:not(last-of-type) {
+  margin-right: 20px;
+}
+
+#main {
+  width: 50%;
+  margin-left: 10%;
+  background: #fafafa;
+  border: 1px solid;
+  padding: 20px 2.5%;
+  float: left;
+  position: relative;
+  z-index: 1;
+}
+
+#aside {
+  width: 20%;
+  padding: 20px 2.5%;
+  border: 1px solid;
+  float: left;
+  margin-left: 5%;
+  position: relative;
+  z-index: 0;
+}
+
+#footer {
+  margin-bottom: 0;
+  margin-top: 50px;
+  border-bottom: 0;
+  border-top: 4px solid;
+  float: left;
+}
+
